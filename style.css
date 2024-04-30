@@ -1,0 +1,284 @@
+body {
+    background-image: url("././photos/flowers.jpg");
+    background-size: 110%;
+    padding-left: 50px;
+  }
+
+  h1 {
+    color: rgb(250, 29, 29); 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-right: 100px;
+
+  }
+  p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+/* colors
+
+light blue
+Dark Blue
+Orange
+Green-Yellow
+*/
+  #main {
+  
+    background-color: blue;
+    width: 1300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  #main div {
+    flex: 1;
+    background-color: rgb(12, 160, 245);
+    width: 10px;
+    height: 390px;
+    border-style: outset;
+    border-color: black;
+    border-width: 5px;
+    display: flex;
+    align-self: flex-start;
+  }
+
+
+  #content {
+    Width: 1290px;
+    background-color: aquamarine;
+    border-style: outset;
+    border-color: black;
+    border-width: 5px;
+  }
+  
+
+  #fall {
+    background-image: url("././photos/fall.png");
+
+    h1 {
+      color: yellow;
+      margin-top: 185px;
+      margin-left: 85px;
+    }
+
+    a:link {
+      color:yellow;
+    }
+    a:visited {
+      color:yellow;
+    }
+  }
+
+  #spring {
+    background-image: url("././photos/spring.png");
+    background-size: 100%;
+
+    h1{
+      color:aqua;
+      margin-top: 300px;
+      margin-left: 85px;
+    }
+    a:link {
+      color:aqua;
+    }
+    a:visited {
+      color:aqua;
+    }
+  }
+
+  #summer {
+    background-image: url("././photos/summer.png");
+
+    h1 {
+      color: blueviolet;
+      margin-top: 15px;
+      margin-left: 45px;
+    }
+    a:link {
+      color:blueviolet;
+    }
+    a:visited {
+      color:blueviolet;
+    }
+  }
+
+  #winter {
+    background-image: url("././photos/winter.png") ;
+
+    h1{
+      color:blue;
+      margin-left: 40px;
+      margin-top: 110px;
+    }
+
+    a:link {
+      color:blue;
+    }
+    a:visited {
+      color:blue;
+    }
+  }
+
+  #mainS {
+    background-image: url("././photos/springPage.png");
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:auto;
+    
+    }
+
+    #mainSu {
+      background-image: url("././photos/summerBackground.png");
+      background-size: 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  
+      height:auto;
+      
+      }
+      #mainF {
+        background-image: url("././photos/fallPage.png");
+        background-size: 100%;
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        height:auto;
+        
+        }
+
+        #mainW {
+          background-image: url("././photos/winterPage.png");
+          background-size: 100%;
+          background-position: left top;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      
+          height:auto;
+          
+          }
+  #back {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    a:link {
+      color: red;
+    }
+    a:visited {
+      color: red;
+    }
+  }
+
+  #textSp {
+    text-align: center;
+    color: rgb(37, 128, 57);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+  }
+
+  #textSu {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+  }
+  #textF {
+    text-align: center;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+  }
+  #textW {
+    text-align: center;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+  }
+  
+  img {
+    width: 70%;
+    height: auto;
+  }
+  #firstW{
+    width:250px;
+  }
+  #thirdW{
+    width:200px;
+  }
+  #fourW{
+    width:200px;
+  }
+
+
+  #fivetW{
+    width:40%
+  }
+
+  #sixW{
+    width:350px;
+  }
+
+
+  #five {
+    width: 90%;
+    height: auto;
+  }
+  #nine {
+    width: 95%;
+    height: auto;
+  }
+
+  #ten {
+    width: 95%;
+    height: auto;
+  }
+
+  #once {
+    width: 95%;
+    height: auto;
+  }
+  #doce {
+    width: 95%;
+    height: auto;
+  }
+  #catorce {
+    width: 95%;
+    height: auto;
+  }
+  #sweetSix {
+    width: 60%;
+    height: auto;
+  }
+  #fallOne{
+    width: 350px;
+    height: auto;
+  }
+
+  #fallTwo{
+    width: 300px;
+    height: auto;
+  }
+  #fallThree{
+    width: 100%;
+    height: auto;
+  }
+  #fallFive{
+    width: 60%;
+    height: auto;
+  }
+  #fallSix{
+    width: 200px;
+    height:auto;
+  }
+  #fallSeven{
+    width: 200px;
+    height: auto;
+  }
+  #fallEight {
+    width: 60%
+  }
